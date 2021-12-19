@@ -1,0 +1,141 @@
+@charset "utf-8";
+.row .navbar-default {
+	background-image: -webkit-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+
+
+}
+.row .nav.navbar-nav > li > a:link  , .row .nav.navbar-nav > li > a:visited{
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	color: #FFFFFF;
+}
+.row .nav.navbar-nav > li > a:hover {
+	background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,1.00) 0%,rgba(66,66,66,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(0,0,0,1.00) 0%,rgba(66,66,66,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(0,0,0,1.00) 0%,rgba(66,66,66,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(0,0,0,1.00) 0%,rgba(66,66,66,1.00) 100%);
+	color: #424242;
+}
+.row .nav.navbar-nav {
+	margin-top: 28px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -16px;
+	width: 715px;
+	float: right;
+}
+.row .navbar {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+header.row h2  {
+	color: #000000;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 0px 0px 0px;
+}
+header.row p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #1B1B1B;
+	text-shadow: 0px 2px 4px;
+}
+header.row {
+	padding: 20px 0px;
+	background-image: url(BANNER_IMAGES/Sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+footer {
+	background-image: -o-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	color: #FFFFFF;
+	text-align: center;
+}
+article.row {
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+}
+article.row section p img {
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	display: block;
+	float: right;
+
+}
+article.row p  {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+article.row section ul {
+	text-align: left;
+}
+section h2 {
+	font-weight: bold;
+	text-align: left;
+}
+header h2 a:link, header h2 a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+.ctr {
+	text-align: center;
+	margin-top: 15px;
+}
+section .panel-default > .panel-heading {
+	background-image: -moz-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	color: #FFFFFF;
+}
+section .panel-default > .panel-heading:hover  {
+	background-image: -moz-linear-gradient(90deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -webkit-linear-gradient(90deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(66,66,66,1.00) 0%,rgba(0,0,0,1.00) 100%);
+	color: #FFFFFF;
+}
+.panel-title a:hover , .panel-title a:focus{
+	text-decoration: none;
+}
+
+section #accordion1 {
+	border: solid 1px #fff;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:426px){
+article.row section p img {
+	display: block;
+}
+
+}
+
+@media (max-width:767px){
+.navbar.navbar-default.navbar-fixed-top .container-fluid #topFixedNavbar1 {
+	text-align: right;
+}
+
+}
